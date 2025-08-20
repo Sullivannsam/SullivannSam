@@ -1,0 +1,230 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+#burger{
+    height:23rem;
+}
+
+.mid-burger{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-340px;
+    background-color:#1e232b;
+    height:100rem;
+    width:100%;
+    gap:80px;
+}
+
+.container-mid-burger img{
+    margin-top:10rem;
+}
+
+.content-about-burger{
+    width:400px;
+    color:white;
+    font-size:30px;
+}
+
+.content-about-burger button{
+    border:none;
+    padding:25px;
+    color:white;
+    background-color:orange;
+    border-radius:50px;
+    margin-top:30px;
+    font-size:30px;
+}
+
+.content-about-burger button:hover{
+    background-color:rgb(211, 139, 5);
+    cursor:pointer;
+}
+
+
+.background-img{
+    background-image:url(img-h/hero-bg.jpg);
+    height:100px;
+    width:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-bottom:20rem;
+}
+
+.space-splite h2{
+    color:white;
+    font-family:'Pacifico';
+}
+
+#Home{
+    color:orange;
+}
+
+.nav-bar a{
+    text-decoration:none;
+    color:white;
+    font-family:sans-serif;
+}
+
+.nav-bar a:hover{
+    color:orange;
+}
+
+.space-splite{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.container-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.nav-bar{
+    gap:23px;
+    align-items:center;
+    display:flex;
+}
+
+.nav-bar button{
+    margin-right:-20px;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:20px;
+    background-color:orange;
+}
+
+.nav-bar button:hover{
+    background-color:rgba(255, 166, 0, 0.671);
+}
+
+
+.container-date-google{
+    display:flex;
+    margin-top:10rem;   
+    justify-content:center;
+    align-items:center;
+    gap:10rem;
+}
+
+.date{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+}
+
+.date input{
+    border-radius:20px;
+    padding:20px;
+    border:solid 1px #ccc;
+}
+
+.container-date button{
+    width:200px;
+    margin-top:20px;
+    border-radius:90px;
+    padding:10px;
+    border:none;
+    background-color:orange;
+    color:white;
+}
+
+.container-date button:hover{
+    background-color:rgb(194, 128, 4);
+    cursor:pointer;
+}
+
+.container-footer-inf{
+    background-color:#1e232b;
+    height:100rem;
+    margin-top:600px;
+}
+
+.container-footer{
+    margin-top:20rem;
+    margin-bottom:-20rem;
+}
+
+.footer{
+    gap:20rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#1e232b;
+    color:white;
+}
+
+.contact-us a{
+    padding:10px;
+    display:flex;
+    text-decoration:none;
+    color:white;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+}
+
+.Feane{
+    font-size:20px;
+    padding:50px;
+    text-align:center;
+    width:20rem;
+}
+
+.about-feane{
+    margin-bottom:20px;
+}
+
+.Feane a{
+    
+    text-decoration:none;
+    color:white;
+
+}
+
+.open-house{
+    margin-top:-30px;
+    text-align:center;
+}
+
+.footer h3{
+    font-family:"Dancing Script";
+    font-size:30px;
+    text-align:center;
+    color:white;
+}
+
+.expired{
+    text-align:center;
+    margin-top:20rem;
+    background-color:#1e232b;
+    height:100px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

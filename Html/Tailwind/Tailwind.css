@@ -1,0 +1,11 @@
+.p{
+    color:red;
+    background-color:blue;
+}
+.text-size{
+    font-size:50px;
+    font-style:italic;
+}
+.text-bold{
+    font-weight:bold;
+}

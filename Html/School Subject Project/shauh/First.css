@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgba(189, 189, 189, 0.197);
+    box-shadow:0px 0px 2px 0px black;
+    position:sticky;
+}
+
+.container-navbar{
+    display:flex;
+}
+
+.container-navbar a{
+    padding:14px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    align-items:center;
+}
+
+.container-navbar a:hover{
+    color:green;
+    text-decoration:underline purple;
+    transition:all;
+}
+
+.continer-header{
+    display:flex;
+    justify-content:center;
+}
+
+h1{
+    font-size:20px;
+    margin-top:1.9rem;
+    color:white;
+    background-color:rgba(154, 68, 154, 0.571);
+    padding:14px;
+    border-radius:0.45rem;
+}
+
+.course-reading{
+    display:none;
+}
+
+.course-reading .course-reading{
+    display:block;
+}
+
+
+
+

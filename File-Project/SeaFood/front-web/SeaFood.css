@@ -1,0 +1,346 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+.container-navbar{
+    position:sticky;
+    top:0;
+    background-color:white;
+    box-shadow:0 0 10px black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#logo-h3{
+    height:40px;
+}
+
+h3{
+    width:160px;
+    align-items:center;
+    display:flex;
+    font-style:italic;
+    border-radius: 0 10px 10px 0;
+    background-color:rgba(44, 212, 44, 0.696);
+}
+
+h2{
+    border-radius:0 18px;
+    padding:5px;
+    margin-left:40px;
+}
+
+.list-navbar{
+    display:flex;
+    gap:20px;
+    margin-right:20px;
+}
+
+.list-navbar li{
+    list-style:none;
+}
+
+.list-navbar button:active{
+    color:black;
+    transform:scale(0.9s);
+    background-color:white;
+}
+
+.list-navbar button{
+    margin-top:-10px;
+    color:white;
+    align-items:center;
+    border:none;
+    padding:10px;
+    border-radius:7px;
+    background-color:rgba(0, 0, 0, 0.708);
+}
+
+.list-navbar a{
+    justify-content:space-evenly;
+    color:black;
+    text-decoration:none;
+}
+
+.card-container-navbar{
+    justify-content:space-evenly;
+}
+
+.list-navbar li a:hover{
+    transition: all 0s;
+    text-decoration:underline;
+    color:green;
+}
+
+/* Show Bar top*/
+
+.menu-fast-food-top{
+    border:solid 1px black;
+    font-size:80px;
+    box-shadow:0 0 15px black;
+    font-weight:bold;
+    font-style:italic;
+    color:black;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.menu-fast-food{
+    font-size:80px;
+    box-shadow:0 0 15px black;
+    font-weight:bold;
+    font-style:italic;
+    color:black;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Conte-main */
+
+.menu-card-content{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap:15px;
+    justify-content:center;
+    margin-top:4rem;
+}
+
+.container-menu{
+    padding:17px;
+    border-radius:7px;
+    width:14.1rem;
+    box-shadow: 0 0 10px;
+    font-family:sans-serif;
+    background-color:rgba(233, 233, 233, 0.708);
+}
+
+#Sea-food-fried-rice{
+    width:225px;
+    height:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+    
+}
+
+.name-fried-rice{
+    text-align:center;
+    background-color:rgba(128, 128, 128, 0.492);
+    padding:5px;
+    border-radius:6px;
+    width:90px;
+}
+
+#Sea-food-squid{
+    width:225px;
+    height:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+}
+
+#Sea-food-crab{
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+    height:225px;
+    width:225px;
+}
+
+#Sea-food{
+    height:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+}
+
+.information{
+    margin-top:10px;
+}
+
+.container-menu a{
+    align-items:center;
+    text-decoration:none;
+    color:black;
+}
+
+.card-container-menu{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.name{
+    text-align:center;
+    background-color:rgba(128, 128, 128, 0.492);
+    width:70px;
+    padding:5px;
+    border-radius:6px;
+}
+
+.price{
+    align-items:center;
+    margin-top:20px;
+    font-weight:bold;
+    display:flex;
+    justify-content:space-between;
+}
+
+.button-order-cart{
+    padding:2px;
+    background-color:rgba(255, 0, 0, 0.521);
+    border:none;
+    padding:5px;
+    border-radius:7px;
+}
+
+.button-order-cart:active{
+    background-color:rgba(0, 255, 0, 0.56);
+    transform: scale(0.9s);
+}
+
+.drink-cover-bg{
+    margin-top:90px;
+}
+
+.text-bg{
+    background-color:rgba(245, 245, 245, 0.607);
+    text-align:center;
+    font-style:italic;
+    font-weight:bold;
+    font-size:5rem;
+    box-shadow:0 0 20px black;
+}
+
+#img-cover-drink{
+    box-shadow:0 2px 10px black;
+    background-color:black;
+}
+
+.content-grid-element{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, 300px);
+    justify-content:center;
+    margin-top:10rem;
+    gap:15px;
+    /* background-color:red; */
+}
+
+/* 
+.content-drink{
+    align-items:center;
+    justify-content:center;
+    background-color:red;
+} */
+
+.img{
+    padding:20px;
+    background-color:rgba(233, 233, 233, 0.708);
+    width:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+}
+
+
+.coke-img{
+    height:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+    
+}
+
+.name-drink{
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:7px;
+    border-radius:7px;
+    width:90px;
+    background-color:rgba(164, 163, 163, 0.875);
+    
+}
+
+.location-coca{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.button-drink-order{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.button-drink-order button{
+    padding:7px;
+    border:none;
+    border-radius:7px;
+    margin-top:10px;
+    background-color:rgba(255, 0, 0, 0.521);
+}
+
+.button-drink-order button:active{
+    transform: scale(0.9s);
+    background-color:rgba(0, 255, 0, 0.56);
+    
+}
+
+.price-drink{
+    font-weight:bold;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+}
+
+.fanta-img{
+    width:220px;
+    height:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+}
+
+.fresh-drink-img{
+    width:220px;
+    height:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+    
+}
+
+.green-tea-img{
+    width:220px;
+    height:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;
+}
+
+.pink-cherry-img{
+    width:220px;
+    height:225px;
+    border-radius:7px;
+    box-shadow:0 0 10px black;
+    border:solid 1px white;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

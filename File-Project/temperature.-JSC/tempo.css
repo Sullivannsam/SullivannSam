@@ -1,0 +1,87 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card-container{
+    background-color:rgba(243, 239, 239, 0.767);
+    border-radius:10px;
+    padding:80px;
+    height:200px;
+
+}
+
+h1{
+    margin-top:-20px;
+    text-align:center;
+}
+
+#temperature{
+    border-radius:10px;
+    border:none;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.546);
+    padding:7px;
+
+}
+
+.input-number-temperature{
+    text-align:center;
+}
+
+.card{
+    display:flex;
+    align-items:center;
+}
+
+.select-radius-one{
+    padding:9px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.select-radius-two{
+    padding:7px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.submit{
+    text-align:center;
+}
+
+.submitBtn{
+    padding:8px;
+    border-radius:7px;
+    width:90px;
+    margin-top:20px;
+    margin-bottom:20px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.364);
+    border:none;
+
+}
+
+.submitBtn:active{
+    background-color:rgba(255, 0, 0, 0.48);
+    color:white;
+    transition:scale(0.90);
+}
+
+#result{
+    font-size:12px;
+}
+
+
+
+

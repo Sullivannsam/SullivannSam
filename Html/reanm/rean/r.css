@@ -1,0 +1,20 @@
+/* .box{
+    border:2px solid;
+}
+
+#container{
+    border:1px solid;
+    padding:20px;
+    position:absolute;
+    height:100px;
+} */
+
+
+.cards{
+    display:none;
+}
+
+.card{
+    display:block;
+    transition:all 0.9 ease-in-out;
+}

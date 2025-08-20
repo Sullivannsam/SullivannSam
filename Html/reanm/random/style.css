@@ -1,0 +1,45 @@
+/*
+
+#countlabel{
+    display:block;
+    text-align:center;
+    font-size:10em;
+    font-family:helvetica;
+}
+
+#btnContainer{
+    text-align:center;    
+}
+.buttons{
+    padding:20px;
+    font-size:1.5em;
+    color:white;
+    background-color:skyblue;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color:rgb(35, 104, 132);
+}
+*/
+
+#input{
+    border-radius:1em;
+    border:solid 1px;
+    padding:10px;
+    cursor:pointer;
+    background-color:rgb(171, 216, 233);
+}
+#submit{
+    padding:10px;
+    border-radius:12px;
+    width:90px;
+    color:black;
+    cursor:pointer;
+}
+button #submit :active{
+    transform:scale (o.95);
+    background-color:rgb(190, 188, 188);
+}

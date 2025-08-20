@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2family=Oswald&display=swap');
+
+
+body{
+   
+    font-family:Inter, -apple-system, BlinkMacSystemFont, "segoe ui";
+    margin:0px;
+    padding:0px;
+    background-color:#2b2638;
+
+}
+
+.logo-bitcoin{
+    width:30px;
+    height:30px;
+}
+
+#market{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.market{
+    font-weight:bold;
+    font-family:Inter, -apple-system,  Helvetica, Arial, sans-serif;
+    color:white;
+}
+
+/* .rotating-world{
+    position:relative;
+}
+
+.world-rotate{
+    display:inline;
+    text-indent: 10px;
+}
+
+.world-rotate span{
+    animation:animate 20s 
+    linear infinite 0s;
+    color:white;
+    opacity:0;
+    overflow:hidden;
+    position:absolute;
+
+}
+
+.world-rotate span:nth-child(2){
+    animation-duration:2.5s;
+}
+.world-rotate span:nth-child(3){
+    animation-duration:5s;
+}
+.world-rotate span:nth-child(4){
+    animation-duration:7.5s;
+}
+.world-rotate span:nth-child(5){
+    animation-duration:10s;
+}
+@keyframes animate {
+
+    0%{
+        opacity: 0;
+    }
+    5%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    10%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    25%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+
+    }
+} */
+
+.search-bitcoin{
+    width:20px;
+    height:20px;
+}
+
+.menu-bitcoin{
+    width:20px;
+    height:20px;
+}
+
+.search-bar-menu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.header-container{
+    display:center;
+    justify-content:center;
+}
+
+.head-container aside{
+    display:flex;
+}
+.header-bitcoin{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#2b2638;
+    padding:7px;
+    box-shadow:0 0 1px white;
+}
+
+.container-sponsor{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+#Sponser-img{
+    height:90px;
+    width:0 250px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#ads{
+    margin-left:-50px;
+    margin-top:30px;
+    border:solid 1px;
+    padding:0 10px;
+    border-radius:20px;
+    
+    font-weight:bold;
+    font-size:12px;
+
+    color:rgba(255, 255, 255, 0.48);
+    background-color:rgba(77, 76, 76, 0.605);
+}
+
+#ads:hover{
+    cursor:pointer;
+}
+
+.container-sponsor{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card-sponsor{
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+}
+
+#icon-caret-up{
+    width:15px;
+}
+
+.market-cap{
+    color:rgba(255, 255, 255, 0.562);
+    font-size:12px;
+    text-align:center;
+}
+
+#market-cap{
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    
+}
+
+.price-cap{
+    align-items:center;
+    display:flex;
+    gap:7px;
+}
+
+#price-cap{
+    color:rgb(22, 199, 132);
+    font-weight:bold;
+}
+
+.market-list{
+    border:none;
+    border-radius:7px;
+    background-color:rgba(98, 94, 94, 0.171);
+    padding:15px;
+    width:200px;
+    text-align:center;
+    justify-content:center;   
+}
+
+.container-colum{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.market-list aside{
+    justify-content:center;
+}
+
+.block-market{
+    padding:10px;
+    background-color:rgba(98, 94, 94, 0.171);
+    width:200px;
+    border-radius:7px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    color:rgba(255, 255, 255, 0.562);
+}
+
+#block-market{
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+aside .aside-price{
+    padding:7px;
+    color:rgb(22, 199, 132);
+    font-weight:bold;
+    align-items:center;
+
+}
+
+
+#icon-caret-up2{
+    width:15px;
+}
+
+/* div #block-market .CMC{
+
+} */

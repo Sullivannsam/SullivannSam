@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card-container .navbar{
+    display:center;
+    justify-content:space-between;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+}
+
+
+
+.navbar li{
+    list-style:none;
+}

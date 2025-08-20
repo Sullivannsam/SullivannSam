@@ -1,0 +1,32 @@
+
+/* .container{
+    border:solid;
+    padding:30px;
+}
+.card-container{
+    border:solid;
+    padding:30px;
+}
+
+ */
+
+.hidden-content{
+    display:none;
+}
+
+.hidden-content.revealBtn{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

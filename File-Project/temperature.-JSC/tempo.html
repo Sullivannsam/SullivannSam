@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tempo.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card-container">
+            
+            <div class="card">
+
+                <form>
+            
+                    <h1>Temperature</h1>
+                    <div class="input-number-temperature">
+                        
+                        <input type="number" id="temperature">
+
+                    </div>
+            
+                    <div class="select-radius-one">
+
+                        <input type="radio" id="radio-Fahrenheit" name="unit">
+                        <div> Celsius to Fahrenheit</div>
+                
+                    </div>
+                    <div class="select-radius-two">
+
+                        <input type="radio" id="radio-Celsius" name="unit">
+                        <div>Fahrenheit to Celsius</div>
+
+                    </div>
+                    <div class="submit">
+
+                        <button type="button" class="submitBtn" onclick="convert()">Submit</button>
+                        <div id="result">Select The Unit</div>
+                    </div>
+                
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="tempo.js"></script>
+</body>
+</html>

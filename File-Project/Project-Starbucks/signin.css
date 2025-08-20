@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+
+.sign-in{
+    display:flex;
+    border:solid 1px;
+    box-shadow: 2px 0px 8px;
+    padding:7px;
+}
+
+.sign-in-card{
+    text-align:center;
+    margin-top:70px;
+    font-size:30px;
+    font-weight:bold
+}
+
+.c-container{
+    margin-top:50px;
+    margin-left:270px;
+}
+
+.container{
+    height:280px;
+    width:400px;
+    background-color:#f4f4f4;
+    border-radius:10px;
+    box-shadow:0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow:hidden;
+    padding:50px;
+    
+}
+
+.required{
+    margin-top:-30px;
+    margin-bottom:20px;
+    margin-left:-9px;
+}
+.input-email{
+    padding:10px;
+    width:380px;
+    border-radius:10px;
+    border:solid 1px;
+}
+.input-password{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:10px;
+    width:380px;
+    border-radius:10px;
+    border:solid 1px;
+}
+
+.check-box{
+    height:25px;
+    width:25px;
+}
+
+.detail{
+    color:rgb(0, 117, 74);
+    font-weight:bold;
+}
+
+.detail a:hover{
+    background-color:rgb(0, 117, 74);
+}
+
+.forgot-user a{
+    color:rgb(0, 117, 74);
+}
+
+.forgot-user{
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.forgot-password{
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.forgot-password a{
+    color:rgb(0, 117, 74);
+}
+
+.sign-in-bottom{
+    text-align:right;
+    margin-top:30px;
+}
+
+.sign-in-bottom a{
+    border:solid 1px;
+    border-radius:30px;
+    padding:20px;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    text-decoration:none;
+    background-color:rgb(0, 117, 74);
+}
+
+.join-starbucks{
+    text-align:center;
+    margin-top:50px;
+}
+
+.join-starbucks-rewards{
+    font-weight:bold;
+    color:rgb(0, 117, 74);
+    margin-bottom:20px;
+}
+
+.join-now{
+    margin-top:20px;
+}
+
+.join-now a{
+    color:rgb(0, 117, 74);
+    text-decoration:none;
+    border:solid 1px;
+    padding:7px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.join-now a:hover{
+    background-color:rgb(141, 222, 141);   
+}

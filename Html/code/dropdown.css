@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+.container{
+    text-align:center;
+}
+.card-container{
+    display:flex;
+    align-items:center;
+    background-color:pink;
+    justify-content:space-between;
+}
+.nav{
+    padding:20px;
+    text-align:right;
+    
+}
+.nav a{
+    padding:20px;
+    text-decoration:none;
+    color:black;
+}
+.nav a:hover{
+    background-color:rgb(103, 100, 100);
+    border:none;
+    border-radius:10px;
+}

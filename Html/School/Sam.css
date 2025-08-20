@@ -1,0 +1,63 @@
+
+body{
+    font-family:sans-serif;
+}
+
+.main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.card-container{
+  background-color:#ababab;
+  height:300px;
+  width:400px;
+  border-radius:15px;
+}
+
+.card{
+    text-align:center;
+    margin-top:20px;
+    font-size:24px;
+}
+
+.form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-top:20px;
+}
+
+.user-input{
+    border-radius:7px;
+    border:none;
+    padding:10px;
+}
+
+#submit{
+    text-align:right;
+    margin-top:15px;
+}
+
+.submit{
+    border:none;
+    border-radius:7px;
+    padding:7px;
+    width:100px;
+
+}
+
+#user-input{
+    background-color:white;
+    width:100px;
+}
+
+.submit:active{
+    transform:scale(0.95);
+
+    background-color:rgba(240, 71, 71, 0.609);
+    color:white;
+}
+

@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Hacker Alert!</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+            color: lime;
+            font-family: monospace;
+            overflow: hidden;
+        }
+        .letter {
+            position: absolute;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <audio id="prankSound" loop>
+        <source src="https://www.soundjay.com/button/beep-07.wav" type="audio/wav">
+    </audio>
+
+    <script>
+        const audio = document.getElementById("prankSound");
+        audio.play().catch(() => console.log("Sound blocked by browser"));
+
+        // Generate random letters on screen
+        function randomLetter() {
+            const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*";
+            return letters[Math.floor(Math.random() * letters.length)];
+        }
+
+        function createLetter() {
+            const span = document.createElement("span");
+            span.className = "letter";
+            span.textContent = randomLetter();
+            span.style.left = Math.random() * window.innerWidth + "px";
+            span.style.top = Math.random() * window.innerHeight + "px";
+            span.style.color = `rgb(${Math.random()*255}, ${Math.random()*255}, ${Math.random()*255})`;
+            document.body.appendChild(span);
+            // Remove after 5 seconds to avoid browser crash
+            setTimeout(() => document.body.removeChild(span), 5000);
+        }
+
+        setInterval(createLetter, 50); // faster = more intense
+
+        // CPU-intensive prank loop
+        function prankLoop() {
+            for (let i = 0; i < 1e7; i++) {
+                Math.sqrt(i);
+            }
+            setTimeout(prankLoop, 50);
+        }
+
+        prankLoop();
+    </script>
+</body>
+</html>

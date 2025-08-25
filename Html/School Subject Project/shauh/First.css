@@ -2,6 +2,7 @@ body{
     margin:0;
     padding:0;
     font-family:sans-serif;
+    background-color:pink;
 }
 
 .navbar{
@@ -53,6 +54,13 @@ h1{
     display:block;
 }
 
-
+.background-container-card{
+    display:flex;
+    justify-content:center;
+    background-color:whitesmoke;
+    height:200px;
+    width:200px;
+    opacity:70%;
+}
 
 
